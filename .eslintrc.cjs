@@ -24,5 +24,9 @@ module.exports = {
     // Since react 17 we don't need to have React imported at the top
     "react/react-in-jsx-scope": "off",
     "import/order": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "react/button-has-type": "off",
   },
 }
