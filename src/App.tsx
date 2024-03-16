@@ -9,10 +9,8 @@ function App() {
 
   return (
     <div>
-      <h1 className="bg-red-500 font-bold text-3xl h-screen">Hello World</h1>
-      <pre>
-        {JSON.stringify(todos, null, 4)}
-      </pre>
+      <h1 className='bg-red-500 p-4 pt-2 transition-all'>Hello World</h1>
+      <pre>{JSON.stringify(todos, null, 4)}</pre>
     </div>
   );
 }

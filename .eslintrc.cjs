@@ -6,7 +6,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
     'airbnb',
-    'airbnb-typescript'
+    'airbnb-typescript',
+    'plugin:prettier/recommended',
   ],
   // Remove linting from dist, eslintrc.cjs and vite.config.ts
   ignorePatterns: ['dist', '.eslintrc.cjs', "vite.config.ts"],
@@ -22,6 +23,6 @@ module.exports = {
     ],
     // Since react 17 we don't need to have React imported at the top
     "react/react-in-jsx-scope": "off",
-    "import/order": "off"
+    "import/order": "off",
   },
 }
