@@ -1,3 +1,48 @@
+# Vite + React + Typescript + Tanstack Query + Tailwind + Eslint + Prettier
+
+This is a starter template to get you going with the must-have libraries for every project.
+
+The starter includes the following libraries:
+- `@tanstack/react-query`
+- `axios`
+- `tailwind`
+- `classnames`
+- `tailwind-merge`
+- `eslint` and the libraries for the airbnb config
+- `prettier`
+
+Also, relative paths are setup in the `tsconfig.json` file so that you can easily import anything you need relatively.
+
+## How to use this starter
+
+---
+Clone the repository:
+```
+https://github.com/Tenacity-Dev/vite-react-ts-tailwind-tanstack-query-eslint-prettier.git
+```
+
+cd into the repository:
+```
+cd vite-react-ts-tailwind-tanstack-query-eslint-prettier
+```
+
+To make this repository yours:
+```
+rm -rf .git && git init && npm init
+git add .
+git commit -m "Initial commit"
+```
+
+Install dependencies:
+```
+npm install
+```
+
+Start the local server:
+```
+npm run web
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
