@@ -40,7 +40,7 @@ npm install
 
 Start the local server:
 ```
-npm run web
+npm run dev
 ```
 
 # React + TypeScript + Vite
