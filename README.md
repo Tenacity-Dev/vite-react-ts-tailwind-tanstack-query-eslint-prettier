@@ -26,21 +26,29 @@ cd into the repository:
 cd vite-react-ts-tailwind-tanstack-query-eslint-prettier
 ```
 
+Install pnpm 
+
+if you already have npm
+```
+npm install -g pnpm
+```
+or go to [pnpm installation](https://pnpm.io/installation)
+
 To make this repository yours:
 ```
-rm -rf .git && git init && npm init
+rm -rf .git && git init && pnpm init
 git add .
 git commit -m "Initial commit"
 ```
 
 Install dependencies:
 ```
-npm install
+pnpm install
 ```
 
 Start the local server:
 ```
-npm run web
+pnpm run dev
 ```
 
 # React + TypeScript + Vite
